@@ -1,0 +1,14 @@
+Package: BankStR
+Type: Package
+Title: Imports Weird, Bank-specific CSVs As Standard R Dataframes
+Version: 0.0.0.9000
+Authors@R: as.person("Katrin Leinweber <katrin.leinweber@uni-konstanz.de> [aut, cre]")
+Description: Helps you get CSVs exported from your Sparkasse, Sparda or
+    Wüstenrot online banking system into nice R data-frames for further processing,
+    visualisation etc. "..._Bankname"-functions provide specific defaults
+    for reading in, cleaning and processing the bank-specific CSVs.
+URL: https://github.com/katrinleinweber/BankStR/
+BugReports: https://github.com/katrinleinweber/BankStR/issues
+License: GPL3
+Depends:
+    R (>= 3.3.1)
