@@ -1,0 +1,17 @@
+Kontoums?tze Girokonto;;;;
+;;;;
+Kontoinhaber:;Vorname Nachname;;;
+Kundennummer:;1234567;;;
+;;;;
+Ums?tze ab;Enddatum;Kontonummer;Saldo;W?hrung
+01.01.1970;31.01.1970;8535374;123,45;EUR
+Weitere gew?hlte Suchoptionen:;keine;;;
+;;;;
+;;;;
+Buchungstag;Wertstellungstag;Verwendungszweck;Umsatz;W?hrung
+01.01.1970;01.01.1970;foo;-12;EUR
+10.01.1970;11.01.1970;bar;34;EUR
+20.01.1970;22.01.1970;baz;56;EUR
+30.01.1970;30.01.1970;bla;-78;EUR
+31.01.1970;31.01.1970;blub;90;EUR
+* noch nicht ausgef?hrte Ums?tze;;;;

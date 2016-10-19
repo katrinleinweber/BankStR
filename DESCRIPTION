@@ -10,5 +10,6 @@ Description: Helps you get CSVs exported from your Sparkasse, Sparda or
 URL: https://github.com/katrinleinweber/BankStR/
 BugReports: https://github.com/katrinleinweber/BankStR/issues
 License: GPL3
+LazyData: TRUE
 Depends:
     R (>= 3.3.1)

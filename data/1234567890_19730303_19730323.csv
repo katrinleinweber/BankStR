@@ -1,0 +1,4 @@
+Datum;Wertstellung;Vorgangsart;Buchungsinformationen;Betrag
+03.03.1973;03.03.1973;SEPA - ?berweisung;foo;12
+13.03.1974;15.03.1974;SEPA - ?berweisung;bar;-34
+23.03.1975;23.03.1975;SEPA  - GS ?berweisung;baz;56
