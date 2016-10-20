@@ -18,6 +18,6 @@ Ignores 10 rows of general account info before table of transactions,
 adjusts column names and deletes last row and column which contain only
 }
 \examples{
-read_sparda("data/umsaetze-012345678-2016-10-23-42-13-37.csv")
+read_sparda('data/umsaetze-012345678-2016-10-23-42-13-37.csv')
 }
 

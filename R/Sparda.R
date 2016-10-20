@@ -17,7 +17,7 @@ read_sparda <- function(file) {
     # row.names, which is not allowed. Thanks to
     # http://stackoverflow.com/a/8854469/4341322.
     
-    # thanks to
+    # Remove last row with 'noch nicht ausgef?hrte Ums?tze'; learned from
     # http://r.789695.n4.nabble.com/remove-last-row-of-a-data-frame-td4652858.html
     df <- df[-nrow(df), ]
     

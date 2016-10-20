@@ -2,20 +2,20 @@
 % Please edit documentation in R/Wustenrot.R
 \name{read_wustenrot}
 \alias{read_wustenrot}
-\title{Read & clean W<U+00FC>stenrot CSVs}
+\title{Read & clean Wustenrot CSVs}
 \usage{
 read_wustenrot(file)
 }
 \arguments{
-\item{file}{A CSV file exported from your W<U+00FC>stenrot Giro-Konto | Kontoums<U+00E4>tze}
+\item{file}{A CSV file exported from your Wustenrot Giro-Konto | Kontoums\303\244tze}
 }
 \value{
 A dataframe
 }
 \description{
-Read & clean W<U+00FC>stenrot CSVs
+Read & clean Wustenrot CSVs
 }
 \examples{
-read_sparda("data/1234567890_19730303_19730323.csv")
+read_sparda('data/1234567890_19730303_19730323.csv')
 }
 

@@ -18,6 +18,6 @@ A dataframe
 Uses latin1 encoding and adjusts column names.
 }
 \examples{
-read_sparkasse("data/19730303-12345678-umsatz.CSV")
+read_sparkasse('data/19730303-12345678-umsatz.CSV')
 }
 
