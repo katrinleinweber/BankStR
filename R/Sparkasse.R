@@ -13,9 +13,9 @@
 
 read_sparkasse <- function(file) {
     df <- read.csv2(file, encoding = "latin1")
-
-    # correct column name
-    names(df)[6] <- make.names("Beguenstigter_Zahlungspflichtiger")
-
+    
+    df <- clean_bank_df(df, variables = c("Valutadatum", "Verwendungszweck", "Betrag"), 
+        dateformat = "%d.%m.%y")
+    
     return(df)
 }

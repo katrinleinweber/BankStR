@@ -9,8 +9,9 @@
 
 read_wustenrot <- function(file) {
     df <- read.csv2(file = file)
-
-    # nothing special here, but [ ] '?berweisung' should probably be cleaned
-
+    
+    df <- clean_bank_df(df, variables = c("Wertstellung", "Buchungsinformationen", "Betrag"), 
+        dateformat = "%d.%m.%y")
+    
     return(df)
 }
