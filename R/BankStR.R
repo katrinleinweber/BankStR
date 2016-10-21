@@ -14,8 +14,8 @@ clean_bank_df <- function(df, variables, dateformat) {
     # reduce to common & useful columns
     df <- subset(df, select = variables)
     
-    # harmonise names
-    names(df) <- make.names(c("day", "purpose", "amount"))
+    # harmonise names & adhere to https://github.com/bhutley/bank-csv-to-ledger
+    names(df) <- make.names(c("DATE", "DESCRIPTION", "AMOUNT"))
     
     # format as date
     df[, "day"] <- as.Date(x = df[, "day"], format = dateformat)
