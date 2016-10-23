@@ -2,7 +2,7 @@
 % Please edit documentation in R/BankStR.R
 \name{clean_bank_df}
 \alias{clean_bank_df}
-\title{Title}
+\title{Clean dataframes after importing from bank's CSV}
 \usage{
 clean_bank_df(df, variables, dateformat)
 }
@@ -10,13 +10,15 @@ clean_bank_df(df, variables, dateformat)
 \item{df}{The dataframe to clean after importing/reading from a bank's CSV
 file.}
 
-\item{variables}{}
+\item{variables}{Variable names of the variables 'DATE', 'DESCRIPTION' and 'AMOUNT'}
+
+\item{dateformat}{The date format for conversion of DATE}
 }
 \value{
-A dataframe reduced to the variables "day", "purpose" and "amount" of
+A dataframe reduced to the variables 'DATE', 'DESCRIPTION' and 'AMOUNT' of
 the transactions
 }
 \description{
-Title
+Clean dataframes after importing from bank's CSV
 }
 
