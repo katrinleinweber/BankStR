@@ -17,7 +17,7 @@ Ignores first row of general account info before table of transactions,
 adjusts column names
 }
 \examples{
-read_consors('data/Buchungen_200845694.csv')
+read_consors('data/consors_Buchungen_200845694.csv')
 
 }
 \author{

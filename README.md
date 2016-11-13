@@ -5,6 +5,7 @@ Helps you get CSVs exported from your bank's online system into nice R data-fram
 ## Currently supported CSVs
 
 - GLS
+- Consors
 - Sparda
 - Sparkasse
 - Wüstenrot
