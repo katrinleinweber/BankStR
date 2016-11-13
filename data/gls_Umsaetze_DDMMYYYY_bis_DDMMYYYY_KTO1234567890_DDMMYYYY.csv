@@ -1,0 +1,4 @@
+Kontonummer;Buchungstag;Wertstellung;Auftraggeber/Empf?nger;Buchungstext;VWZ1;VWZ2;VWZ3;VWZ4;VWZ5;VWZ6;VWZ7;VWZ8;VWZ9;VWZ10;VWZ11;VWZ12;VWZ13;VWZ14;Betrag;Kontostand;W?hrung
+1234567890;01.01.1970;01.01.1970;Vorname Nachnahme;?berweisungs-Gutschrift;;;;;;;;;;;;;;;123;123;EUR
+1234567890;02.02.1970;04.02.1970;Vorname Nachnahme;Internet-Euro-?berweisung;BIC:ABCDE1234;IBAN:DE04999666220001234567;Datum: 01.01.70 Zeit: 23:42;UFT 0987654321 TAN 123456;Verwendungszweck 1;Verwendungszweck 2;Verwendungszweck 3;Verwendungszweck 4;;;;;;;-456;-333;EUR
+1234567890;03.03.1970;06.03.1970;Vorname Nachnahme;?berweisungs-Gutschrift;;;;;;;;;;;;;;;789;456;EUR
