@@ -9,7 +9,7 @@
 #' @return A dataframe
 #'
 #' @examples
-#' read_sparda('data/umsaetze-012345678-2016-10-23-42-13-37.csv')
+#' read_sparda('data/sparda_umsaetze-1234567-YYYY-MM-DD-HH-MM-SS')
 
 read_sparda <- function(file) {
     df <- read.csv2(file = file, header = T, skip = 10, row.names = NULL)

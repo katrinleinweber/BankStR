@@ -5,7 +5,7 @@
 #' @return A dataframe
 #'
 #' @examples
-#' read_sparda('data/1234567890_19730303_19730323.csv')
+#' read_wustenrot('data/wustenrot_1234567890_YYYYMMDD_YYYYMMDD.csv')
 
 read_wustenrot <- function(file) {
     df <- read.csv2(file = file)

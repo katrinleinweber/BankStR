@@ -9,7 +9,7 @@
 #'
 #' @return A dataframe
 #'
-#' @examples read_consors('data/Buchungen_200845694.csv')
+#' @examples read_consors('data/consors_Buchungen_200845694.csv')
 #'
 #' @export
 

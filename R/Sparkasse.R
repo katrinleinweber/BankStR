@@ -9,7 +9,7 @@
 #' @return A dataframe
 #'
 #' @examples
-#' read_sparkasse('data/19730303-12345678-umsatz.CSV')
+#' read_sparkasse('data/sparkasse_YYYYMMDD-12345678-umsatz.CSV')
 
 read_sparkasse <- function(file) {
     df <- read.csv2(file, encoding = "latin1")
