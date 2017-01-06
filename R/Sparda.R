@@ -20,6 +20,10 @@ read_sparda <- function(file) {
     # http://r.789695.n4.nabble.com/remove-last-row-of-a-data-frame-td4652858.html
     df <- df[-nrow(df), ]
     
+    # re-align column names after shift due to row.names
+    names(df) <- names(df)[2:ncol(df)]
+    df[ncol(df)] <- NULL
+
     df <- clean_bank_df(df, variables = c("Wertstellungstag", "Verwendungszweck", "Umsatz"), dateformat = "%d.%m.%Y")
     
     return(df)
