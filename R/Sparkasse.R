@@ -6,7 +6,7 @@
 #' Postfach | Funktionen | Giro... | Dokumentenuebersicht aufrufen |
 #' Funktionen | Export | Format: CSV...
 #'
-#' @return A dataframe
+#' @return A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 #'
 #' @examples
 #' read_sparkasse('data/sparkasse_YYYYMMDD-12345678-umsatz.CSV')

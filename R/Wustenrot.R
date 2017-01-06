@@ -2,7 +2,7 @@
 #'
 #' @param file A CSV file exported from your Wustenrot Giro-Konto | Kontoums\303\244tze
 #'
-#' @return A dataframe
+#' @return A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 #'
 #' @examples
 #' read_wustenrot('data/wustenrot_1234567890_YYYYMMDD_YYYYMMDD.csv')

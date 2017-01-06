@@ -6,7 +6,7 @@
 #' @param file A CSV file exported from your Sparda Konto-Center |
 #' Umsaetze | Umsatzsuche
 #'
-#' @return A dataframe
+#' @return A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 #'
 #' @examples
 #' read_sparda('data/sparda_umsaetze-1234567-YYYY-MM-DD-HH-MM-SS')

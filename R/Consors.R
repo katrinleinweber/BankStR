@@ -7,7 +7,7 @@
 #'
 #' @author Wolfgang Lederer
 #'
-#' @return A dataframe
+#' @return A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 #'
 #' @examples read_consors('data/consors_Buchungen_200845694.csv')
 #'
