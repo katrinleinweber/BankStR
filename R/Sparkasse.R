@@ -12,8 +12,8 @@
 #' read_sparkasse('data/sparkasse_YYYYMMDD-12345678-umsatz.CSV')
 
 read_sparkasse <- function(file) {
-    df <- read.csv2(file, encoding = "latin1")
     
+    df <- read.csv2(file, encoding = "latin1", stringsAsFactors = FALSE)
     df <- clean_bank_df(df, variables = c("Valutadatum", "Verwendungszweck", "Betrag"), dateformat = "%d.%m.%y")
     
     return(df)

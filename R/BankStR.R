@@ -22,5 +22,10 @@ clean_bank_df <- function(df, variables, dateformat) {
     # format as date
     df[, "DATE"] <- as.Date(x = df[, "DATE"], format = dateformat)
     
+    # clean up . and ,
+    df[, "AMOUNT"] <- gsub(fixed = T, ".", "", df[, "AMOUNT"])
+    df[, "AMOUNT"] <- gsub(fixed = T, ",", ".", df[, "AMOUNT"])
+    df[, "AMOUNT"] <- as.numeric(df[, "AMOUNT"])
+
     return(df)
 }

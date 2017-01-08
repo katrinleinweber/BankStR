@@ -12,7 +12,7 @@
 #' read_sparda('data/sparda_umsaetze-1234567-YYYY-MM-DD-HH-MM-SS')
 
 read_sparda <- function(file) {
-    df <- read.csv2(file = file, header = T, skip = 10, row.names = NULL)
+    df <- read.csv2(file = file, header = T, skip = 10, row.names = NULL, stringsAsFactors = FALSE)
     # Because Buchungs- & Wertstellungstag are often the same, R assumes duplicate row.names, which is not
     # allowed. Thanks to http://stackoverflow.com/a/8854469/4341322.
     

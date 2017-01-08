@@ -8,8 +8,8 @@
 #' read_wustenrot('data/wustenrot_1234567890_YYYYMMDD_YYYYMMDD.csv')
 
 read_wustenrot <- function(file) {
-    df <- read.csv2(file, header = FALSE, skip = 1)
     
+    df <- read.csv2(file, header = FALSE, skip = 1, stringsAsFactors = FALSE)
     # remove empty last column
     df <- df[, -ncol(df)]
     
