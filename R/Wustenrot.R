@@ -18,7 +18,7 @@ read_wustenrot <- function(file) {
     header <- readLines(file, n = 1)
     names(df) <- unlist(strsplit(header, ";"))
 
-    df <- clean_bank_df(df, variables = c("Wertstellung", "Buchungsinformationen", "Betrag"), dateformat = "%d.%m.%y")
     
+    df <- clean_bank_df(df, variables = c("Wertstellung", "Buchungsinformationen", "Betrag"), dateformat = "%d.%m.%Y")
     return(df)
 }
