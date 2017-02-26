@@ -21,4 +21,3 @@ the transactions
 \description{
 Clean dataframes after importing from bank's CSV
 }
-
