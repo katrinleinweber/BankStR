@@ -1,7 +1,7 @@
 Package: BankStR
 Type: Package
 Title: Imports Weird, Bank-specific CSVs As Standard R Dataframes
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: as.person("Katrin Leinweber <katrin.leinweber@uni-konstanz.de> [aut, cre]")
 Description: Helps you get CSVs exported from your online banking system into nice R data-frames for further processing, visualisation etc. "..._Bankname"-functions provide specific defaults for reading in, cleaning and processing the bank-specific CSVs.
 URL: https://github.com/katrinleinweber/BankStR/
@@ -10,5 +10,5 @@ License: GPL3
 LazyData: TRUE
 Depends:
     R (>= 3.3.1)
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Suggests: testthat

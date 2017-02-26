@@ -10,12 +10,12 @@ read_wustenrot(file)
 \item{file}{A CSV file exported from your Wustenrot Giro-Konto | Kontoums\303\244tze}
 }
 \value{
-A dataframe
+A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 }
 \description{
 Read & clean Wustenrot CSVs
 }
 \examples{
 read_wustenrot('data/wustenrot_1234567890_YYYYMMDD_YYYYMMDD.csv')
-}
 
+}

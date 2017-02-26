@@ -10,6 +10,8 @@
 #'
 #' @examples
 #' read_sparkasse('data/sparkasse_YYYYMMDD-12345678-umsatz.CSV')
+#'
+#' @export
 
 read_sparkasse <- function(file) {
     

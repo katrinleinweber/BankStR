@@ -6,6 +6,8 @@
 #'
 #' @examples
 #' read_wustenrot('data/wustenrot_1234567890_YYYYMMDD_YYYYMMDD.csv')
+#'
+#' @export
 
 read_wustenrot <- function(file) {
     

@@ -12,12 +12,12 @@ Postfach | Funktionen | Giro... | Dokumentenuebersicht aufrufen |
 Funktionen | Export | Format: CSV...}
 }
 \value{
-A dataframe
+A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 }
 \description{
 Uses latin1 encoding and adjusts column names.
 }
 \examples{
 read_sparkasse('data/sparkasse_YYYYMMDD-12345678-umsatz.CSV')
-}
 
+}

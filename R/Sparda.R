@@ -10,6 +10,8 @@
 #'
 #' @examples
 #' read_sparda('data/sparda_umsaetze-1234567-YYYY-MM-DD-HH-MM-SS')
+#'
+#' @export
 
 read_sparda <- function(file) {
     df <- read.csv2(file = file, header = T, skip = 10, row.names = NULL, stringsAsFactors = FALSE)

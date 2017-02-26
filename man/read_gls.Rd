@@ -7,15 +7,15 @@
 read_gls(file)
 }
 \arguments{
-\item{file}{A CSV file exported from your GLS online account | Finanzen & Ums<U+00E4>tze | Umsatzexport}
+\item{file}{A CSV file exported from your GLS online account | Finanzen & Umsätze | Umsatzexport}
 }
 \value{
-A dataframe
+A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 }
 \description{
 Read & clean CSVs from the GLS Gemeinschaftsbank eG
 }
 \examples{
 read_gls('data/gls_Umsaetze_DDMMYYYY_bis_DDMMYYYY_KTO1234567890_DDMMYYYY.csv')
-}
 
+}

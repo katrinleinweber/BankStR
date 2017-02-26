@@ -9,8 +9,6 @@
 #'
 #' @return A dataframe reduced to the variables 'DATE', 'DESCRIPTION' and 'AMOUNT' of
 #' the transactions
-#'
-#' @export
 clean_bank_df <- function(df, variables, dateformat) {
     
     # reduce to common & useful columns

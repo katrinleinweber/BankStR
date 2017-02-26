@@ -11,7 +11,7 @@ read_sparda(file)
 Umsaetze | Umsatzsuche}
 }
 \value{
-A dataframe
+A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 }
 \description{
 Ignores 10 rows of general account info before table of transactions,
@@ -19,5 +19,5 @@ adjusts column names and deletes last row and column which contain only
 }
 \examples{
 read_sparda('data/sparda_umsaetze-1234567-YYYY-MM-DD-HH-MM-SS')
-}
 
+}

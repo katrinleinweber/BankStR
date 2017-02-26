@@ -10,7 +10,7 @@ read_consors(file)
 \item{file}{A CSV file exported from your Consorsbank Account as CSV}
 }
 \value{
-A dataframe
+A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
 }
 \description{
 Ignores first row of general account info before table of transactions,
@@ -23,4 +23,3 @@ read_consors('data/consors_Buchungen_200845694.csv')
 \author{
 Wolfgang Lederer
 }
-
