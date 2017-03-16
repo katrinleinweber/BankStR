@@ -1,12 +1,13 @@
 #' Read & clean Sparda CSVs
 #'
 #' Ignores 10 rows of general account info before table of transactions,
-#' adjusts column names and deletes last row and column which contain only
+#' adjusts column names and deletes useless last row and column.
 #'
 #' @param file A CSV file exported from your Sparda Konto-Center |
-#' Umsaetze | Umsatzsuche
+#' Umsaetze | Umsatzsuche.
 #'
-#' @return A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
+#' @return A dataframe reduced to the variables 'DATE', 'DESCRIPTION' and 'AMOUNT' of
+#' the transactions.
 #'
 #' @examples
 #' read_sparda('data/sparda_umsaetze-1234567-YYYY-MM-DD-HH-MM-SS')

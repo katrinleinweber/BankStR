@@ -2,7 +2,8 @@
 #'
 #' @param file A CSV file exported from your GLS online account | Finanzen & Umsätze | Umsatzexport
 #'
-#' @return A dataframe with three columns: "DATE", "DESCRIPTION" and "AMOUNT".
+#' @return A dataframe reduced to the variables 'DATE', 'DESCRIPTION' and 'AMOUNT' of
+#' the transactions
 #'
 #' @examples
 #' read_gls('data/gls_Umsaetze_DDMMYYYY_bis_DDMMYYYY_KTO1234567890_DDMMYYYY.csv')

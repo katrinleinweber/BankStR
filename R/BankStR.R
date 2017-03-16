@@ -3,12 +3,13 @@
 #' @param df The dataframe to clean after importing/reading from a bank's CSV
 #' file.
 #'
-#' @param variables Variable names of the variables 'DATE', 'DESCRIPTION' and 'AMOUNT'
+#' @param variables Names of the variables corresponding to 'DATE', 'DESCRIPTION' and 'AMOUNT'
 #'
-#' @param dateformat The date format for conversion of DATE
+#' @param dateformat The date format for converting the string in DATE.
 #'
 #' @return A dataframe reduced to the variables 'DATE', 'DESCRIPTION' and 'AMOUNT' of
-#' the transactions
+#' the transactions.
+#'
 clean_bank_df <- function(df, variables, dateformat) {
 
     # reduce to common & useful columns
