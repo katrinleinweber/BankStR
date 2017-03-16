@@ -10,6 +10,8 @@
 #' @return A dataframe reduced to the variables 'DATE', 'DESCRIPTION' and 'AMOUNT' of
 #' the transactions.
 #'
+#' @importFrom readr read_csv2
+#'
 clean_bank_df <- function(df, variables, dateformat) {
 
     # reduce to common & useful columns
