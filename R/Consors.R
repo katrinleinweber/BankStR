@@ -17,7 +17,9 @@
 read_consors <- function(file) {
     df <- readr::read_csv2(file, col_names = FALSE, col_types = "ccccccccn", skip = 1)
 
-    df <- clean_bank_df(df, variables = c("X2", "X7", "X9"), dateformat = "%d.%m.%Y")
+    df <- clean_bank_df(df, variables = c("X2", "X7", "X9"),
+                        dateformat = "%d.%m.%Y"
+                        )
 
     return(df)
 }

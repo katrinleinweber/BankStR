@@ -21,7 +21,9 @@ read_sparda <- function(file) {
     # http://r.789695.n4.nabble.com/remove-last-row-of-a-data-frame-td4652858.html
     df <- df[-nrow(df), ]
 
-    df <- clean_bank_df(df, variables = c("Wertstellungstag", "Verwendungszweck", "Umsatz"), dateformat = "%d.%m.%Y")
+    df <- clean_bank_df(df, variables = c("Wertstellungstag", "Verwendungszweck", "Umsatz"),
+                        dateformat = "%d.%m.%Y"
+                        )
 
     return(df)
 }

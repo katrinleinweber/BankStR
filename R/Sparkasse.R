@@ -15,9 +15,11 @@
 #' @export
 
 read_sparkasse <- function(file) {
-
     df <- readr::read_csv2(file)
-    df <- clean_bank_df(df, variables = c("Valutadatum", "Verwendungszweck", "Betrag"), dateformat = "%d.%m.%y")
+
+    df <- clean_bank_df(df, variables = c("Valutadatum", "Verwendungszweck", "Betrag"),
+                        dateformat = "%d.%m.%y"
+                        )
 
     return(df)
 }

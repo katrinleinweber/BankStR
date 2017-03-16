@@ -15,7 +15,9 @@ read_wustenrot <- function(file) {
     df <- readr::read_csv2(file)
 
 
+    df <- clean_bank_df(df, variables = c("Wertstellung", "Buchungsinformationen", "Betrag"),
+                        dateformat = "%d.%m.%Y"
+                        )
 
-    df <- clean_bank_df(df, variables = c("Wertstellung", "Buchungsinformationen", "Betrag"), dateformat = "%d.%m.%Y")
     return(df)
 }
