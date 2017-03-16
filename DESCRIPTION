@@ -9,6 +9,7 @@ BugReports: https://github.com/katrinleinweber/BankStR/issues
 License: GPL3
 LazyData: TRUE
 Depends:
+    readr
     R (>= 3.3.1)
 RoxygenNote: 6.0.1
 Suggests: testthat

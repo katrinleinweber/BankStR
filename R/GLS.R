@@ -11,9 +11,9 @@
 #' @export
 
 read_gls <- function(file) {
-    df <- read.csv2(file = file, stringsAsFactors = FALSE)
+    df <- readr::read_csv2(file = file, col_types = "nccccccccccccccccccnnc")
 
-    df <- clean_bank_df(df, variables = c("Wertstellung", "VWZ5", "Betrag"), dateformat = "%d.%m.%Y")
+    df <- clean_bank_df(df, variables = c("Wertstellung", "Buchungstext", "Betrag"), dateformat = "%d.%m.%Y")
 
     return(df)
 }
