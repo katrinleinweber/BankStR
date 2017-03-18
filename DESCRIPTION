@@ -6,9 +6,8 @@ Authors@R: as.person("Katrin Leinweber <katrin.leinweber@uni-konstanz.de> [aut, 
 Description: Helps you get CSVs exported from your online banking system into nice R data-frames for further processing, visualisation etc. "..._Bankname"-functions provide specific defaults for reading in, cleaning and processing the bank-specific CSVs.
 URL: https://github.com/katrinleinweber/BankStR/
 BugReports: https://github.com/katrinleinweber/BankStR/issues
-License: GPL3
 LazyData: TRUE
-Depends:
-    R (>= 3.3.1)
+License: GPL (>= 3)
+Depends: R (>= 3.3.1)
 RoxygenNote: 6.0.1
 Suggests: testthat
