@@ -9,9 +9,6 @@
 #' @return A dataframe reduced to the variables 'DATE', 'DESCRIPTION' and 'AMOUNT' of
 #' the transactions.
 #'
-#' @examples
-#' read_sparda('data/sparda_umsaetze-1234567-YYYY-MM-DD-HH-MM-SS')
-#'
 #' @export
 
 read_sparda <- function(file) {
