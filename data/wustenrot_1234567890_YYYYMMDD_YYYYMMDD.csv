@@ -1,0 +1,5 @@
+Datum;Wertstellung;Vorgangsart;Buchungsinformationen;Betrag
+01.01.1970;02.01.1970;SEPA-Lastschrift Inland;foo;-1.234,56;
+01.01.1971;01.01.1971;SEPA-Lastschrift Inland;bar;7.890,00;
+02.02.1972;02.02.1972;Bonus; ;100,00;
+02.02.1972;02.02.1972;Malus; ;-200,00;
